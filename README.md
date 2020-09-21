@@ -1,2 +1,11 @@
 # Memory-Puzzle-Game
-Game development using Python and PyGame
+Game development Project ->
+Python is one of the globally used programming languages, and using the pygame modules with it will gave me a chance to easily implement memory puzzle game. Pygame is an open free source that you can learn and download later easily.
+
+Developed a GUI interface for playing a memory matching game. The game is played with a deck of cards that contains identical pairs. The cards are dealt on a two dimensional board with number of rows and columns specified by the user.
+
+Initially, all the cards are displayed face up and the user tries to remember the cards and their locations on the board. Then, the user clicks a button to turn all the cards face down. After that, the user uses the mouse to click on a pair of cards to turn them face up. If the two cards match, they are left face up.Otherwise, the user can click on one or both cards to turn them face down. The aim of the game is to guess all the identical pairs of cards in as few trials as possible.The assignment is developed in two stages. In the first stage, students develop an object oriented terminal-based solution. This required to write code for a card class, deck class, and game class. The game class contains a play method to manage the interaction with the user and to play a complete game. This part also required to work with two dimensional lists1 and random shapes. In the second stage, students develop a GUI interface for playing the game. This part requires minimal change for the card class to associate cards with image files and no change for the deck class. The game class is replaced by a class for developing the GUI. Text fields (called Entry components in Python) are used so that the user can enter number of rows and columns for the game. Labels are used to show card images. The play method from stage one is replaced by methods to respond to user generated events such as mouse clicks on cards to flip the cards face up and face down. A button is used to start the game where the number of rows and columns specified by the user are read, validated, and the desired number of cards are displayed on the GUI. Another button is used to flip all the cards face down. Event handlers are written to respond to mouse and button clicks. 
+
+
+
+ 
